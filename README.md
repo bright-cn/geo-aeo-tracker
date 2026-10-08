@@ -1,119 +1,120 @@
 <p align="center">
-  <img src="public/banner.svg" alt="GEO/AEO Tracker – Open-source AI visibility dashboard" width="100%"/>
+  <img src="public/banner.svg" alt="GEO/AEO Tracker——开源 AI 可见度控制面板" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://brightdata.com/?utm_source=geo-tracker-os"><img src="https://img.shields.io/badge/Powered%20by-Bright%20Data-00d4aa?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" alt="Powered by Bright Data"/></a>
-  <a href="https://llm-tracker-three.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-▶-blue?style=for-the-badge" alt="Live Demo"/></a>
-  <a href="#deploy-to-vercel"><img src="https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel" alt="Deploy to Vercel"/></a>
+  <a href="https://www.bright.cn/?utm_source=geo-tracker-os"><img src="https://img.shields.io/badge/Powered%20by-Bright%20Data-00d4aa?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=" alt="由 Bright Data 提供支持"/></a>
+  <a href="https://llm-tracker-three.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-▶-blue?style=for-the-badge" alt="在线演示"/></a>
+  <a href="#部署到-vercel"><img src="https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel" alt="部署到 Vercel"/></a>
 </p>
 
 <h1 align="center">GEO/AEO Tracker</h1>
 
 <p align="center">
-  Open-source, local-first AI visibility intelligence dashboard.<br/>
-  Track your brand across <strong>6 AI models</strong> with zero vendor lock-in.
+  开源、本地优先的 AI 可见度分析控制面板。<br/>
+  同时追踪品牌在 <strong>6 个 AI 模型</strong>中的表现，不受供应商锁定。
 </p>
 
 <p align="center">
-  <a href="#features"><strong>Features</strong></a> · 
-  <a href="#quick-start"><strong>Quick Start</strong></a> · 
-  <a href="#deploy-to-vercel"><strong>Deploy</strong></a> · 
-  <a href="#api-routes"><strong>API</strong></a>
+  <a href="#功能"><strong>功能</strong></a> ·
+  <a href="#快速开始"><strong>快速开始</strong></a> ·
+  <a href="#部署到-vercel"><strong>部署</strong></a> ·
+  <a href="#api-路由"><strong>API</strong></a>
 </p>
 
 ---
 
-> 🌐 **Built with [Bright Data](https://brightdata.com/?utm_source=geo-tracker-os)** — the world's leading web data platform.
-> GEO/AEO Tracker uses Bright Data's AI Scraper API to reliably collect structured responses from 6 AI models.
-> [Get your API key →](https://brightdata.com/?utm_source=geo-tracker-os)
+> 🌐 **基于 [Bright Data](https://www.bright.cn/?utm_source=geo-tracker-os) 构建**——全球领先的网页数据平台。
+> GEO/AEO Tracker 使用 Bright Data 的 AI 爬虫 API，可靠地采集来自 6 个 AI 模型的结构化回答。
+> [获取 API 密钥 →](https://www.bright.cn/?utm_source=geo-tracker-os)
 
 ---
 
-## Why
+## 为什么开发这个项目
 
-AI models are replacing traditional search for millions of queries. If your brand isn't visible in ChatGPT, Perplexity, or Gemini responses, you're invisible to a growing audience.
+对于数以百万计的查询，AI 模型正在取代传统搜索。如果你的品牌没有出现在 ChatGPT、Perplexity 或 Gemini 的回答中，越来越多的受众就无法看到你。
 
-Existing tools charge **$200–$500+/month**, lock you into closed ecosystems, and store your data on their servers.
+现有工具每月收费 **200–500 美元以上**，将用户锁定在封闭生态中，还把数据存储在其服务器上。
 
-**GEO/AEO Tracker** is the alternative:
+**GEO/AEO Tracker** 提供了另一种选择：
 
-- 🔑 **BYOK** (Bring Your Own Keys): your data never leaves your machine
-- 🤖 **6 AI models** simultaneously: more coverage than paid tools
-- 💸 **$0/month**: self-hosted, open-source, forever free
-- 🛡️ **Local-first**: IndexedDB + localStorage, no external database
+- 🔑 **自带密钥（BYOK）**：你的数据保存在自己的设备上
+- 🤖 **同时追踪 6 个 AI 模型**：覆盖范围超过付费工具
+- 💸 **每月 0 美元**：自行托管、开源、永久免费
+- 🛡️ **本地优先**：使用 IndexedDB 和 localStorage，无需外部数据库
 
-## Features
+## 功能
 
-### 📋 12 Feature Tabs
+### 📋 12 个功能标签页
 
-| Tab | What it does |
+| 标签页 | 功能 |
 |-----|-------------|
-| ⚙️ **Project Settings** | Brand name, aliases, website, industry, keywords, description |
-| 💬 **Prompt Hub** | Manage tracking prompts with `{brand}` injection. Run single or batch across models |
-| 🎭 **Persona Fan-Out** | Generate persona-specific prompt variants (CMO, SEO Lead, Founder, etc.) |
-| 🔍 **Niche Explorer** | AI-generated high-intent queries for your niche |
-| 📝 **Responses** | Browse AI responses with brand/competitor highlighting, filters, and search |
-| 📊 **Visibility Analytics** | Score trends over time via Recharts line charts. CSV export |
-| 🔗 **Citations** | Domain-grouped citation frequency analysis |
-| 🎯 **Citation Opportunities** | URLs where competitors get cited but you don't, with outreach briefs |
-| ⚔️ **Competitor Battlecards** | AI-generated side-by-side competitor analysis with strengths/weaknesses |
-| 🏥 **AEO Audit** | Site readiness check: llms.txt, Schema.org, BLUF density, heading structure |
-| ⏱️ **Automation** | Cron / GitHub Actions templates for scheduled runs |
-| 📖 **Documentation** | Searchable 14-section guide covering every feature |
+| ⚙️ **项目设置** | 配置品牌名称、别名、网站、行业、关键词和描述 |
+| 💬 **提示词中心** | 管理包含 `{brand}` 变量的追踪提示词；可针对多个模型单独或批量运行 |
+| 🎭 **角色扩展** | 生成面向不同角色的提示词变体，例如首席营销官、SEO 负责人或创始人 |
+| 🔍 **细分领域探索** | 通过 AI 生成与你的细分领域相关、具有高意向的查询 |
+| 📝 **回答** | 浏览 AI 回答，突出显示品牌和竞争对手，并使用筛选与搜索功能 |
+| 📊 **可见度分析** | 使用 Recharts 折线图查看评分随时间变化的趋势，并导出 CSV |
+| 🔗 **引用** | 按域名分组，分析各来源被引用的频率 |
+| 🎯 **获取引用的机会** | 找出竞争对手被引用、你的品牌却未被引用的 URL，并生成联系对方的简报 |
+| ⚔️ **竞争对手分析卡** | 由 AI 生成并排对比的竞争对手分析，包括优势和劣势 |
+| 🏥 **AEO 审核** | 检查网站的 AI 回答引擎就绪情况：llms.txt、Schema.org、BLUF 密度和标题结构 |
+| ⏱️ **自动化** | 提供用于定时运行的 Cron 和 GitHub Actions 模板 |
+| 📖 **文档** | 提供可搜索的 14 章节指南，涵盖所有功能 |
 
-### 🚀 Core Capabilities
+### 🚀 核心能力
 
-- 🤖 **Multi-model tracking** across ChatGPT, Perplexity, Gemini, Copilot, Google AI Overview, Grok
-- 📈 **Visibility scoring** (0–100): brand mentions, position, frequency, citations, sentiment
-- 🔔 **Drift alerts**: automatic notifications when your score changes significantly
-- ⏰ **Scheduled auto-runs**: configurable interval-based batch scraping
-- 📅 **Historical comparison**: delta tracking across time periods
-- 🏢 **Multi-workspace**: manage multiple brands/projects independently
-- 🎨 **Dark/light/system** theme with a polished sidebar UI
+- 🤖 **多模型追踪**：覆盖 ChatGPT、Perplexity、Gemini、Copilot、Google AI Overview 和 Grok
+- 📈 **可见度评分**（0–100）：综合品牌提及、出现位置、提及频率、引用和情感倾向
+- 🔔 **变化提醒**：评分发生显著变化时自动通知
+- ⏰ **定时自动运行**：按可配置的时间间隔批量抓取
+- 📅 **历史对比**：追踪不同时间段之间的变化
+- 🏢 **多工作区**：独立管理多个品牌或项目
+- 🎨 **深色、浅色及跟随系统主题**，搭配完善的侧边栏界面
 
-## Architecture
+## 架构
 
-```
+```text
 Next.js 16.1 + Turbopack
 ├── app/
-│   ├── page.tsx                    # Main dashboard (or demo via env var)
-│   ├── demo/page.tsx               # Standalone demo route
+│   ├── page.tsx                    # 主控制面板（或通过环境变量启用演示模式）
+│   ├── demo/page.tsx               # 独立演示页面
 │   └── api/
-│       ├── scrape/route.ts         # Bright Data AI Scrapers (Node runtime)
-│       ├── analyze/route.ts        # OpenRouter LLM analysis (Edge runtime)
-│       └── audit/route.ts          # AEO site audit crawler
+│       ├── scrape/route.ts         # Bright Data AI 爬虫工具（Node 运行时）
+│       ├── analyze/route.ts        # OpenRouter LLM 分析（Edge 运行时）
+│       └── audit/route.ts          # AEO 网站审核爬虫
 ├── components/
-│   ├── sovereign-dashboard.tsx     # Main shell — state, tabs, KPIs
+│   ├── sovereign-dashboard.tsx     # 主界面：状态、标签页和关键指标
 │   └── dashboard/
-│       ├── types.ts                # AppState, ScrapeRun, Provider, etc.
-│       └── tabs/                   # 12 tab components
+│       ├── types.ts                # AppState、ScrapeRun、Provider 等类型
+│       └── tabs/                   # 12 个标签页组件
 ├── lib/
-│   ├── client/sovereign-store.ts   # IndexedDB + localStorage persistence
-│   ├── server/brightdata-scraper.ts # Bright Data API integration
-│   └── demo-data.ts               # Deterministic seed data for demo mode
+│   ├── client/sovereign-store.ts   # 使用 IndexedDB 和 localStorage 持久化
+│   ├── server/brightdata-scraper.ts # Bright Data API 集成
+│   └── demo-data.ts               # 演示模式使用的确定性初始数据
 └── scripts/
-    ├── test-scraper.js             # API validation script
-    └── test-pillar.js              # Feature pillar tests
+    ├── test-scraper.js             # API 验证脚本
+    └── test-pillar.js              # 核心功能测试
 ```
 
-**Key decisions:**
-- **IndexedDB** primary store (no size limit) with localStorage as best-effort cache
-- **Edge runtime** for `/api/analyze` (Kimi K2.5 via OpenRouter) — fast global inference
-- **Bright Data Web Scraper API** for AI model scraping — reliable, structured data
-- **Zod** schema validation on all API routes
-- **Recharts** for analytics visualizations
-- **Tailwind CSS v4** with CSS custom properties for theming
+**主要技术决策：**
 
-## Quick Start
+- 以 **IndexedDB** 为主要存储方式（无容量限制），以 localStorage 作为尽力而为的缓存
+- `/api/analyze` 使用 **Edge 运行时**（通过 OpenRouter 调用 Kimi K2.5），实现快速的全球推理
+- 使用 **Bright Data 网页爬虫工具 API** 抓取 AI 模型回答，获得可靠的结构化数据
+- 所有 API 路由均使用 **Zod** 验证数据结构
+- 使用 **Recharts** 实现分析数据可视化
+- 使用 **Tailwind CSS v4** 和 CSS 自定义属性实现主题切换
 
-### Prerequisites
+## 快速开始
+
+### 准备工作
 
 - Node.js 18+
-- [Bright Data](https://brightdata.com/) API key + AI Scraper dataset IDs
-- [OpenRouter](https://openrouter.ai/) API key
+- [Bright Data](https://www.bright.cn/) API 密钥和 AI 爬虫工具数据集 ID
+- [OpenRouter](https://openrouter.ai/) API 密钥
 
-### Install & Run
+### 安装与运行
 
 ```bash
 git clone https://github.com/danishashko/sovereign-aeo-tracker.git
@@ -121,12 +122,12 @@ cd sovereign-aeo-tracker
 npm install
 ```
 
-Create `.env` in the project root:
+在项目根目录创建 `.env`：
 
 ```env
 BRIGHT_DATA_KEY=your_bright_data_api_key
 
-# AI Scraper dataset IDs (from Bright Data Scrapers Library)
+# AI 爬虫工具数据集 ID（从 Bright Data 爬虫工具库获取）
 BRIGHT_DATA_DATASET_CHATGPT=gd_xxx
 BRIGHT_DATA_DATASET_PERPLEXITY=gd_xxx
 BRIGHT_DATA_DATASET_COPILOT=gd_xxx
@@ -134,7 +135,7 @@ BRIGHT_DATA_DATASET_GEMINI=gd_xxx
 BRIGHT_DATA_DATASET_GOOGLE_AI=gd_xxx
 BRIGHT_DATA_DATASET_GROK=gd_xxx
 
-# OpenRouter (powers /api/analyze — battlecards, niche generation)
+# OpenRouter（支持 /api/analyze：竞争对手分析卡、细分领域查询生成）
 OPENROUTER_KEY=your_openrouter_api_key
 ```
 
@@ -142,64 +143,64 @@ OPENROUTER_KEY=your_openrouter_api_key
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+打开 [http://localhost:3000](http://localhost:3000)。
 
-### Validate Setup
+### 验证配置
 
 ```bash
-npm run test:scraper    # Test Bright Data API connection
-npm run build           # Full production build check
-npm run lint            # ESLint
+npm run test:scraper    # 测试 Bright Data API 连接
+npm run build           # 检查完整生产构建
+npm run lint            # 运行 ESLint
 ```
 
-## Deploy to Vercel
+## 部署到 Vercel
 
-> ✅ **The deploy button launches a fully functional production instance.** You'll be prompted for your API keys during setup. No demo mode, no restrictions.
+> ✅ **点击部署按钮即可启动功能完整的生产实例。** 配置过程中，系统会提示你输入 API 密钥。无需启用演示模式，也没有功能限制。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdanishashko%2Fsovereign-aeo-tracker&env=BRIGHT_DATA_KEY,BRIGHT_DATA_DATASET_CHATGPT,BRIGHT_DATA_DATASET_PERPLEXITY,BRIGHT_DATA_DATASET_COPILOT,BRIGHT_DATA_DATASET_GEMINI,BRIGHT_DATA_DATASET_GOOGLE_AI,BRIGHT_DATA_DATASET_GROK,OPENROUTER_KEY)
+[![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdanishashko%2Fsovereign-aeo-tracker&env=BRIGHT_DATA_KEY,BRIGHT_DATA_DATASET_CHATGPT,BRIGHT_DATA_DATASET_PERPLEXITY,BRIGHT_DATA_DATASET_COPILOT,BRIGHT_DATA_DATASET_GEMINI,BRIGHT_DATA_DATASET_GOOGLE_AI,BRIGHT_DATA_DATASET_GROK,OPENROUTER_KEY)
 
-1. Click the button above (or run `vercel --prod` from your clone)
-2. Enter your [Bright Data](https://brightdata.com/?utm_source=geo-tracker-os) and [OpenRouter](https://openrouter.ai/) API keys when prompted
-3. Done! Your tracker deploys automatically with full production capabilities
+1. 点击上方按钮，或在克隆的仓库中运行 `vercel --prod`
+2. 按提示输入 [Bright Data](https://www.bright.cn/?utm_source=geo-tracker-os) 和 [OpenRouter](https://openrouter.ai/) 的 API 密钥
+3. 完成！追踪工具会自动部署，并具备完整的生产环境功能
 
-### 🧪 Demo-Only Mode (optional)
+### 🧪 仅演示模式（可选）
 
-Want to deploy a read-only preview with sample data and no API keys?
+想要部署一个使用示例数据、无需 API 密钥的只读预览？
 
-1. Add env var `NEXT_PUBLIC_DEMO_ONLY` = `true` in Vercel → Project Settings → Environment Variables
-2. Redeploy. The dashboard will load with pre-generated demo data instead of making live API calls
+1. 在 Vercel → 项目设置 → 环境变量中添加 `NEXT_PUBLIC_DEMO_ONLY`，并设为 `true`
+2. 重新部署。控制面板将加载预先生成的演示数据，而不会发起实时 API 调用
 
-## API Routes
+## API 路由
 
-| Route | Runtime | Purpose |
+| 路由 | 运行时 | 用途 |
 |-------|---------|---------|
-| `POST /api/scrape` | Node.js | Bright Data AI Scrapers — query AI models for brand mentions |
-| `POST /api/analyze` | Edge | OpenRouter LLM inference — battlecards, niche queries |
-| `POST /api/audit` | Node.js | AEO site audit — llms.txt, schema, BLUF, heading checks |
+| `POST /api/scrape` | Node.js | 使用 Bright Data AI 爬虫工具查询 AI 模型中的品牌提及 |
+| `POST /api/analyze` | Edge | 使用 OpenRouter LLM 推理生成竞争对手分析卡和细分领域查询 |
+| `POST /api/audit` | Node.js | 执行 AEO 网站审核，检查 llms.txt、结构化数据、BLUF 和标题 |
 
-All routes include in-memory caching to minimize API costs.
+所有路由都包含内存缓存，以降低 API 费用。
 
-## Tech Stack
+## 技术栈
 
-| Layer | Technology |
+| 层级 | 技术 |
 |-------|-----------|
-| Framework | Next.js 16.1 + Turbopack |
-| Language | TypeScript (strict) |
-| Styling | Tailwind CSS v4 with `@theme inline` |
-| Charts | Recharts |
-| Validation | Zod |
-| Storage | IndexedDB (idb-keyval) + localStorage |
-| AI Scraping | Bright Data Web Scraper API |
-| LLM Inference | OpenRouter (Kimi K2.5) |
-| Deployment | Vercel |
+| 框架 | Next.js 16.1 + Turbopack |
+| 语言 | TypeScript（严格模式） |
+| 样式 | Tailwind CSS v4，使用 `@theme inline` |
+| 图表 | Recharts |
+| 数据验证 | Zod |
+| 存储 | IndexedDB（idb-keyval）+ localStorage |
+| AI 数据抓取 | Bright Data 网页爬虫工具 API |
+| LLM 推理 | OpenRouter（Kimi K2.5） |
+| 部署 | Vercel |
 
-## License
+## 许可证
 
-MIT — use it, fork it, ship it.
+MIT——欢迎使用、复刻和发布。
 
 ---
 
 <p align="center">
-  Built by <a href="https://www.linkedin.com/in/daniel-shashko/">Daniel Shashko</a><br/>
-  <sub>Powered by <a href="https://brightdata.com/?utm_source=geo-tracker-os">Bright Data</a></sub>
+  由 <a href="https://www.linkedin.com/in/daniel-shashko/">Daniel Shashko</a> 构建<br/>
+  <sub>由 <a href="https://www.bright.cn/?utm_source=geo-tracker-os">Bright Data</a> 提供支持</sub>
 </p>
